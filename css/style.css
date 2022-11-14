@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../img/1620981404683.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 70%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;    
+}
+nav ul li a:hover{
+    color: red;
+    transition: .4s;
+}
+img{
+    display: flex;
+    float: right;
+    margin-top: calc(100vh - 104vh);
+    margin-right: 260px;
+    pointer-events: none;
+}
+.imgAxel{
+    width: 250px;
+}
+.text{
+    color: white;
+	margin: 80px 170px 20px;
+	font-size: 15px;
+}
+.text2{
+    color: white;
+    margin: -15px 170px 20px;
+    font-size: 15px;
+}
+.text3{
+    color: white;
+    margin: -15px 170px 20px;
+    font-size: 15px;
+}
+.biographie{
+    color: white;
+    margin: 320px 270px 20px;
+    font-size: 20px;
+}
+.biographie2{
+    color: white;
+    margin: 10px 340px 20px;
+    font-size: 20px;
+}
+.droit{
+    color: white;
+    margin: 80px 650px 20px;
+}
